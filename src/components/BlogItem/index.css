@@ -1,0 +1,57 @@
+/* Write your CSS code here */
+.nav-link {
+  text-decoration: none;
+}
+.blog-item-container {
+  border: 1px solid #d3d3d3;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.title-img {
+  width: 100%;
+
+  border-radius: 5px;
+}
+.blog-item-content-container {
+}
+.topic {
+  color: #8e8e8e;
+  font-size: 14px;
+  font-weight: 500;
+}
+.title {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+}
+.author-container {
+  display: flex;
+  align-items: center;
+}
+.avatar-img {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+.author-name {
+  color: #8e8e8e;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .blog-item-container {
+    display: flex;
+    align-items: center;
+  }
+  .title-img {
+    width: 40%;
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .title-img {
+    width: 30%;
+  }
+}

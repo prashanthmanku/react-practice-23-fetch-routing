@@ -1,0 +1,62 @@
+/* Write your CSS code here */
+.blog-Item-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.blogitem-title {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+}
+.author-container {
+}
+.avatar-img {
+}
+.blog-Item-author-name {
+  color: #2f4f4f;
+  font-size: 14px;
+  font-weight: 500;
+}
+.blog-item-title_img {
+  width: 100%;
+}
+.blog-item-content {
+  color: #2f4f4f;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+@media screen and (min-width: 768px) {
+  .blog-item-title_img {
+    /* width: 80%; */
+  }
+  .blog-Item-container {
+    width: 70%;
+  }
+  .blogitem-title {
+    font-size: 20px;
+  }
+  .blog-item-content {
+    font-size: 19px;
+    line-height: 30px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .blog-Item-container {
+    width: 50%;
+  }
+}
+
+.back-link {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  align-self: flex-end;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+}
